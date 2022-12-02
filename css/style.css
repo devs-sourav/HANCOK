@@ -1,0 +1,1970 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #212529;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+:root {
+    --oswald: 'Oswald', sans-serif;
+    --h_wh: #dddddd;
+    --f_wh: #fff;
+    --a_black: #121212;
+    --r_hover: #FF4655;
+    --barlow: 'Barlow Condensed', sans-serif;
+}
+
+/* ===========================================================================
+                        Common CSS End Here
+=========================================================================== */
+
+
+/* ===========================================================================
+                        Navbar CSS Start Here
+=========================================================================== */
+.nav_item_margin {
+    margin-left: 45px;
+}
+.navbar {
+    padding: 25px 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+.menu_fix {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #212121;
+    z-index: 9999;
+    animation: menu 1s;
+    -webkit-animation: menu 1s;
+}
+.sidebar .navbar-nav .nav-item .nav-link {
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 10px;
+    font-family: var(--oswald);
+}
+.sidebar{
+    min-width: 100%;
+    height: 100vh;
+    background: #111;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: all linear 0.3s;
+    padding-top: 50px;
+    z-index: 9999999;
+    text-align: center;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.ddfdaSS{
+    margin-right: 0 !important;
+}
+.toogler{
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+}
+.toogler i{
+    cursor: pointer;
+}
+.hide{
+    position: absolute;
+    z-index: 999999;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all linear 0.1s;
+    -webkit-transition: all linear 0.1s;
+    -moz-transition: all linear 0.1s;
+    -ms-transition: all linear 0.1s;
+    -o-transition: all linear 0.1s;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    width: 30px;
+}
+.hide i{
+    cursor: pointer;
+}
+.hide:hover{
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+@keyframes menu {
+    0% {
+        top: -100px;
+        left: 0;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+    }
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    color: var(--h_wh);
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+    font-family: var(--oswald);
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.nav_2 .nav-item .nav-link {
+    color: var(--f_wh) !important;
+}
+
+
+
+.nav_1 .nav-item:hover .nav-link::after {
+    transform: scaley(1);
+    -webkit-transform: scaley(1);
+    -moz-transform: scaley(1);
+    -ms-transform: scaley(1);
+    -o-transform: scaley(1);
+}
+
+.nav_1 .nav-item .nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 100%;
+    height: 4px;
+    background: #FF4655;
+    transform: scaleY(0);
+    -webkit-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transform-origin: bottom;
+}
+
+/* ===========================================================================
+                        Navbar CSS End Here
+
+
+/* ===========================================================================
+                        Banner CSS Start Here
+=========================================================================== */
+#banner {
+    padding-top: 330px;
+    padding-bottom: 100px;
+}
+
+.banner_text h2 {
+    color: var(--f_wh);
+    font-weight: 400;
+    font-size: 27px;
+    font-family: var(--oswald);
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    line-height: 40.01px;
+}
+
+.banner_text h1 {
+    color: var(--f_wh);
+    font-weight: 600;
+    font-size: 60px;
+    font-family: var(--oswald);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    position: relative;
+    line-height: 88.82px;
+    margin-left: -3px;
+}
+
+.red_text {
+    color: var(--r_hover);
+    font-weight: 600;
+    font-size: 60px;
+    font-family: var(--oswald);
+    text-transform: uppercase;
+    position: absolute;
+    left: 3px;
+    top: 0;
+    line-height: 88.82px;
+    margin-left: -3px;
+}
+
+.banner_text h1::after {
+    width: 90px;
+    position: absolute;
+    height: 3px;
+    background: #fff;
+    content: "";
+    right: 40px;
+    bottom: 17px;
+    animation-name: bip_shape;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: normal;
+}
+
+@keyframes bip_shape {
+    0% {
+        background: #fff;
+    }
+
+    100% {
+        background: var(--r_hover);
+    }
+}
+
+.banner_text p {
+    color: var(--f_wh);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: var(--oswald);
+    line-height: 23.71px;
+    padding-right: 110px;
+}
+
+.banner_text a {
+    padding: 16px 24px;
+    background: var(--f_wh);
+    color: var(--a_black);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: var(--oswald);
+    margin-top: 40px;
+    position: relative;
+    overflow-x: hidden;
+    z-index: 1;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.banner_text a:hover {
+    color: var(--f_wh);
+}
+
+.banner_text a::after {
+    content: '';
+    position: absolute;
+    left: -164px;
+    top: 0;
+    width: 155px;
+    height: 101%;
+    background: var(--r_hover);
+    transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    z-index: -1;
+}
+
+.banner_text a:hover::after {
+    left: -10px;
+}
+
+.banner_text a span {
+    margin-left: 10px;
+    font-size: 14px !important;
+}
+
+.icon_cont {
+    margin-top: 300px;
+
+}
+
+.icon_item {
+    column-gap: 20px;
+}
+
+.icon_item a {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: var(--f_wh);
+    text-align: center;
+    line-height: 35px;
+    color: #000;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.icon_item a:hover {
+    background: var(--r_hover);
+    color: #fff;
+}
+
+/* ===========================================================================
+                        Banner CSS End Here
+=========================================================================== */
+
+
+/* ===========================================================================
+                        Community CSS Start Here
+=========================================================================== */
+#community {
+    padding-top: 35px;
+    padding-bottom: 80px;
+    background: #121212;
+}
+
+.header h3 {
+    color: var(--f_wh);
+    font-weight: 600;
+    font-size: 38px;
+    font-family: var(--oswald);
+    line-height: 56.32px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.red2_text {
+    color: var(--r_hover);
+    font-weight: 600;
+    font-size: 38px;
+    font-family: var(--oswald);
+    text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 56.32px;
+    margin-right: 60px;
+}
+
+.com_header .header h3::after {
+    content: '';
+    position: absolute;
+    right: 215px;
+    bottom: 11px;
+    width: 110px;
+    height: 3px;
+    background: var(--f_wh);
+    animation: b_shape 1s infinite;
+    -webkit-animation: b_shape 1s infinite;
+}
+
+@keyframes b_shape {
+    0% {
+        background: #fff;
+    }
+
+    100% {
+        background: var(--r_hover);
+    }
+}
+
+.com_image img {
+    border-radius: 0 0 65px 0;
+    -webkit-border-radius: 0 0 65px 0;
+    -moz-border-radius: 0 0 65px 0;
+    -ms-border-radius: 0 0 65px 0;
+    -o-border-radius: 0 0 65px 0;
+    height: 100%;
+}
+
+.com_image {
+    position: relative;
+    margin-top: 64px;
+    height: 400px;
+}
+
+.com_image::after {
+    content: '';
+    position: absolute;
+    left: -7px;
+    top: -8px;
+    width: 50px;
+    height: 7px;
+    background: var(--r_hover);
+    animation: right_move 3s alternate infinite;
+    -webkit-animation: right_move 3s alternate infinite;
+}
+
+.com_main::after {
+    content: '';
+    position: absolute;
+    left: -7px;
+    top: -8px;
+    width: 163px;
+    height: 7px;
+    background: var(--r_hover);
+}
+
+@keyframes right_move {
+    0% {
+        left: -7px;
+    }
+
+    100% {
+        left: 587px;
+    }
+}
+
+.com_image::before {
+    content: '';
+    position: absolute;
+    left: -7px;
+    top: -7px;
+    width: 7px;
+    height: 50px;
+    background: var(--r_hover);
+    animation: left_move 3s infinite;
+    -webkit-animation: left_move 3s alternate infinite;
+}
+
+@keyframes left_move {
+    0% {
+        top: -7px;
+    }
+
+    100% {
+        top: 348px;
+    }
+}
+
+.com_main {
+    position: relative;
+}
+
+.com_main::before {
+    content: '';
+    position: absolute;
+    left: -7px;
+    top: -7px;
+    width: 7px;
+    height: 163px;
+    background: var(--r_hover);
+}
+
+.com_text_con {
+    margin-top: 55px;
+    padding-left: 60px;
+}
+
+.com_text_con h3 {
+    color: #fee4e494;
+    font-weight: 600;
+    font-size: 27px;
+    font-family: var(--oswald);
+    line-height: 40.01px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.com_text_con h3 .red_text3 {
+    color: var(--r_hover);
+    font-weight: 600;
+    font-size: 27px;
+    font-family: var(--oswald);
+    text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 40.01px;
+}
+
+.com_list h4 {
+    color: var(--f_wh);
+    font-weight: 400;
+    font-size: 18px;
+    font-family: var(--barlow);
+    line-height: 21.6px;
+    margin-bottom: 10px;
+}
+
+.com_list {
+    margin-top: 7px;
+}
+
+.com_list h4 span {
+    color: var(--r_hover);
+    margin-right: 10px;
+}
+
+.com_text_con p {
+    color: var(--f_wh);
+    font-weight: 400;
+    font-size: 18px;
+    font-family: var(--oswald);
+    line-height: 26.68px;
+    padding-right: 45px;
+}
+
+.com_text_con a {
+    padding: 16px 24px;
+    background: #212121;
+    color: var(--f_wh);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: var(--oswald);
+    margin-top: 40px;
+    position: relative;
+    overflow-x: hidden;
+    z-index: 1;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.com_text_con a:hover {
+    color: var(--f_wh);
+}
+
+.com_text_con a::after {
+    content: '';
+    position: absolute;
+    left: -164px;
+    top: 0;
+    width: 155px;
+    height: 100%;
+    background: var(--r_hover);
+    transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    z-index: -1;
+}
+
+.com_text_con a:hover::after {
+    left: -10px;
+}
+
+.com_text_con a span {
+    margin-left: 10px;
+    font-size: 14px !important;
+}
+
+.track {
+    margin-top: 50px;
+    text-align: center;
+    background: #212121;
+    padding: 26px 0;
+    border-radius: 50px 0 50px 0;
+    -webkit-border-radius: 50px 0 50px 0;
+    -moz-border-radius: 50px 0 50px 0;
+    -ms-border-radius: 50px 0 50px 0;
+    -o-border-radius: 50px 0 50px 0;
+}
+
+.track h3 {
+    color: var(--f_wh);
+    font-weight: 600;
+    font-size: 60px;
+    font-family: var(--barlow);
+    line-height: 72px;
+    margin-bottom: 18px;
+}
+
+.track h3 .r_dot {
+    color: #FF4655;
+    margin-left: 5px;
+}
+
+.track h5 {
+    color: var(--f_wh);
+    font-weight: 300;
+    font-size: 18px;
+    font-family: var(--oswald);
+}
+
+/* ===========================================================================
+                        Community CSS End Here
+=========================================================================== */
+
+
+
+/* ===========================================================================
+                        Popular Games CSS Start Here
+=========================================================================== */
+.red3_text {
+    color: var(--r_hover);
+    font-weight: 600;
+    font-size: 38px;
+    font-family: var(--oswald);
+    text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 56.32px;
+    margin-right: 60px;
+}
+
+#popular {
+    padding-top: 115px;
+    padding-bottom: 90px;
+}
+
+.popular_head .header {
+    text-align: right;
+}
+
+.popular_head .header h3::after {
+    content: '';
+    position: absolute;
+    right: 125px;
+    bottom: 11px;
+    width: 110px;
+    height: 3px;
+    background: var(--f_wh);
+}
+
+.game_item{
+    height: 390px;
+    width: 100%;
+    background: var(--r_hover);
+    clip-path: polygon(17% 0, 100% 0%, 83% 100%, 0% 100%);
+}
+.main_cont_pop_game{
+    margin-top: 80px;
+}
+.image_item_cont{
+    
+    position: relative;
+}
+.image_item_cont img{
+    position: absolute;
+    left: 60px;
+    bottom: 0;
+}
+.slider_cont_pop_game{
+    clip-path: polygon(17% 0, 100% 0%, 83% 100%, 0% 100%);
+}
+.pop_game_cont{
+    position: relative;
+}
+.pop_prev{
+    position: absolute;
+    right: 16px;
+    bottom: 22px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid var(--f_wh);
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.pop_prev:hover{
+    border: 1px solid var(--r_hover);
+}
+.pop_prev:hover span{
+    color: var(--r_hover);
+}
+.pop_next:hover{
+    border: 1px solid var(--r_hover);
+}
+.pop_next:hover span{
+    color: var(--r_hover);
+}
+.pop_next{
+    position: absolute;
+    right: 16px;
+    bottom: 82px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid var(--f_wh);
+}
+.pop_prev span,.pop_next span{
+    font-size: 22px;
+    color: var(--f_wh);
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+/* ===========================================================================
+                        Popular Games CSS End Here
+=========================================================================== */
+
+
+/* ===========================================================================
+                        Stream CSS Start Here
+=========================================================================== */
+#stream {
+    padding: 90px 0;
+    background: #121212;
+}
+
+.red_text4 {
+    color: var(--r_hover);
+    font-weight: 600;
+    font-size: 38px;
+    font-family: var(--oswald);
+    text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 56.32px;
+    margin-right: 10px;
+}
+
+.Stream_header .header h3::after {
+    content: '';
+    position: absolute;
+    left: 140px;
+    bottom: 12px;
+    width: 110px;
+    height: 3px;
+    background: var(--f_wh);
+    animation: stream_head 1s infinite;
+    -webkit-animation: stream_head 1s infinite;
+}
+
+@keyframes stream_head {
+    0% {
+        background: var(--f_wh);
+    }
+
+    100% {
+        background: var(--r_hover);
+    }
+}
+
+.stream_item_cont {
+    position: relative;
+    width: 32.2%;
+    height: 276px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 78px;
+    margin-bottom: 60px;
+}
+
+.stream_item_cont img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    min-height: 100%;
+}
+
+.stream_item {
+    padding: 100px 25px 25px 25px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.stream_item a {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 22px;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+
+.stream_item:hover a {
+    border: 1px solid var(--r_hover);
+    color: #FF4655;
+}
+
+.stream_item h3 {
+    color: var(--f_wh);
+    font-weight: 600;
+    font-size: 22px;
+    font-family: var(--barlow);
+    text-transform: uppercase;
+    line-height: 26.4px;
+    margin-top: 25px;
+}
+
+.stream_text h4 {
+    color: var(--f_wh);
+    font-weight: 300;
+    font-size: 16px;
+    font-family: var(--oswald);
+    line-height: 23.71px;
+    margin-top: 5px;
+}
+
+.stream_text h4 span {
+    font-size: 20px !important;
+    color: var(--r_hover) !important;
+    margin-right: 6px;
+}
+
+.stream_slider_item .slick-center img {
+    transform: scale(1.11);
+    -webkit-transform: scale(1.11);
+    -moz-transform: scale(1.11);
+    -ms-transform: scale(1.11);
+    -o-transform: scale(1.11);
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+}
+
+.game_schedule h3 {
+    color: var(--f_wh);
+    font-weight: 500;
+    font-size: 25px;
+    font-family: var(--barlow);
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.team {
+    padding: 10px 62px 10px 3px;
+    background: #212121;
+    clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
+}
+
+.clippy {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 10% 100%) !important;
+    padding: 10px 3px 10px 62px;
+}
+
+.team h3 {
+    color: var(--f_wh);
+    font-weight: 500;
+    font-size: 32px;
+    font-family: var(--barlow);
+    text-transform: uppercase;
+    line-height: 38px;
+    letter-spacing: 3px;
+}
+
+.contest_time h3 {
+    color: var(--f_wh);
+    font-weight: 500;
+    font-size: 40px;
+    font-family: var(--oswald);
+    text-transform: uppercase;
+    line-height: 59.28px;
+    letter-spacing: 6px;
+}
+
+.contest_cont {
+    margin-top: 50px;
+}
+
+.cvc {
+    margin-top: 60px;
+}
+
+/* ===========================================================================
+                        Stream CSS End Here
+=========================================================================== */
+
+
+/* ===========================================================================
+                        Common CSS Start Here
+=========================================================================== */
+#sale {
+    padding: 90px 0;
+    background: #191919;
+}
+
+.sale_header .header {
+    text-align: right;
+}
+
+.sale_header {
+    margin-bottom: 48px;
+}
+
+.sale_header .header h3 {
+    color: var(--f_wh);
+    font-weight: 600;
+    font-size: 38px;
+    font-family: var(--barlow);
+    text-transform: uppercase;
+    line-height: 45.6px;
+    letter-spacing: 3px;
+    position: relative;
+}
+
+.sale_header .header h3::after {
+    content: '';
+    position: absolute;
+    right: 95px;
+    bottom: 11px;
+    width: 110px;
+    height: 3px;
+    background: var(--r_hover);
+}
+
+.sale_text {
+    margin-top: 18px;
+}
+
+.sale_text h3 {
+    color: var(--f_wh);
+    font-weight: 600;
+    font-size: 22px;
+    font-family: var(--barlow);
+    line-height: 26.4px;
+    letter-spacing: 1px;
+}
+
+.sale_text h4 {
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: var(--oswald);
+    line-height: 23.71px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.sale_text h5 {
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: var(--oswald);
+    line-height: 20.75px;
+
+
+}
+
+.box {
+    padding: 4px 4px 5px 4px;
+    background: var(--r_hover);
+    letter-spacing: 1px;
+    color: #fff !important;
+}
+
+.commission {
+    font-size: 16px !important;
+    color: #666666 !important;
+    line-height: 23.71px !important;
+    letter-spacing: 1.5px;
+    margin-left: 10px;
+    text-decoration-line: line-through;
+    -moz-text-decoration-line: line-through;
+}
+
+.rate {
+    font-size: 16px !important;
+    color: #fff !important;
+    line-height: 23.71px !important;
+    margin-left: 10px;
+}
+
+.sale_img {
+    position: relative;
+}
+
+.sale_item_hov_shape {
+    padding: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 20%;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.sale_item_hov_shape a {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    background: #212121;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid #fff;
+    opacity: 0;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.bg_grad {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 80%);
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+
+.sale_item:hover .sale_img .bg_grad {
+    height: 80%;
+}
+
+.sale_item:hover .sale_img .sale_item_hov_shape a {
+    opacity: 1;
+}
+
+.sale_item {
+    margin: 0 10px;
+}
+
+.swip_header h4 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: var(--barlow);
+    line-height: 24px;
+    margin-top: 60px;
+}
+
+.game_slider_cont {
+    padding: 42px 111px 42px 44px;
+    background: #212121;
+    margin-top: 30px;
+}
+
+.game_text_cont h4 {
+    color: #bcbcbc;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: var(--oswald);
+    line-height: 23.71px;
+    letter-spacing: 1px;
+    position: relative;
+    margin-top: 3px;
+}
+
+.red_text5 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--r_hover);
+    font-weight: 500;
+    font-size: 16px;
+    font-family: var(--oswald);
+    line-height: 23.71px;
+    letter-spacing: 1px;
+}
+
+.game_text_cont h3 {
+    color: var(--f_wh);
+    font-weight: 600;
+    font-size: 38px;
+    font-family: var(--barlow);
+    line-height: 45.6px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.game_text_cont p {
+    color: #666666;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: var(--oswald);
+    line-height: 23.71px;
+    margin-top: 15px;
+    padding-right: 40px;
+}
+
+.game_text_cont a {
+    padding: 13px 31px;
+    color: #fff;
+    background: #121212;
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: var(--oswald);
+    line-height: 23.71px;
+    position: relative;
+    overflow-x: hidden;
+    z-index: 1;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.game_text_cont a:hover {
+    color: var(--f_wh);
+}
+
+.game_text_cont a::after {
+    content: '';
+    position: absolute;
+    left: -164px;
+    top: 0;
+    width: 155px;
+    height: 100%;
+    background: var(--r_hover);
+    transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    z-index: -1;
+}
+
+.game_text_cont a:hover::after {
+    left: -10px;
+}
+.poster-item{
+    opacity: 1 !important;
+}
+.poster-item img {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.poster-main {
+    position: relative;
+    margin-left: auto;
+}
+
+.poster-main .poster-list .poster-item {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.poster-main .poster-btn{
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+.poster-main .poster-prev-btn{
+    left: 0;
+}
+.poster-main .poster-next-btn{
+    right: 0;
+}
+/* ===========================================================================
+                        Common CSS End Here
+=========================================================================== */
+
+
+
+/* ===========================================================================
+                        Store CSS Start Here
+=========================================================================== */
+#store{
+    padding: 90px 0;
+    background: #121212;
+}
+.store_header .header h3{
+    position: relative;
+}
+.red_text6 {
+    color: var(--r_hover);
+    font-weight: 600;
+    font-size: 38px;
+    font-family: var(--oswald);
+    text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 56.32px;
+    margin-right: 10px;
+}
+
+.store_header  .header h3::after {
+    content: '';
+    position: absolute;
+    left: 200px;
+    bottom: 12px;
+    width: 110px;
+    height: 3px;
+    background: var(--f_wh);
+    animation: stream_head 1s infinite;
+    -webkit-animation: stream_head 1s infinite;
+}
+.store_item{
+    padding: 24px 0 22px 0;
+    background: #212121;
+    text-align: center;
+    margin:0 10px;
+}
+
+.store_item h3{
+    color: var(--f_wh);
+    font-weight: 500;
+    font-size: 40px;
+    font-family: var(--oswald);
+    text-transform: uppercase;
+    line-height: 59.28px;
+    letter-spacing: 1px;
+}
+.store_item h4{
+    color: var(--f_wh);
+    font-weight: 600;
+    font-size: 25px;
+    font-family: var(--oswald);
+    text-transform: capitalize;
+    line-height: 37.05px;
+}
+.store_item a{
+    color: var(--r_hover);
+    font-weight: 600;
+    font-size: 16px;
+    font-family: var(--oswald);
+    text-transform: uppercase;
+    line-height: 23.71px;
+    margin-top: 7px;
+}
+.store_img{
+    margin-bottom: 35px;
+    margin-top: 7px;
+
+}
+.cfgfg{
+    margin-top: 17px !important;
+}
+.store_cont{
+    margin-top: 102px;
+    position: relative;
+}
+.store_prev{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid var(--f_wh);
+    left: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    background: var(--r_hover);
+    color: var(--f_wh);
+    cursor: pointer;
+    font-size: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.store_next{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid var(--f_wh);
+    right: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    background: var(--r_hover);
+    color: var(--f_wh);
+    cursor: pointer;
+    font-size: 20px;
+    visibility: hidden;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    opacity: 0;
+}
+.store_cont{
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.store_cont:hover .store_prev,.store_cont:hover .store_next{
+    visibility: visible;
+    opacity: 1;
+}
+/* ===========================================================================
+                        Store CSS End Here
+=========================================================================== */
+
+
+
+/* ===========================================================================
+                        Team CSS Start Here
+=========================================================================== */
+#team{
+    padding: 100px 0;
+    background: #191919;
+}
+.team_header .header{
+    text-align: right;
+}
+.team_header{
+    margin-bottom: 50px;
+}
+.team_header .header h3::after {
+	content: '';
+	position: absolute;
+	right: 95px;
+	bottom: 12px;
+	width: 110px;
+	height: 3px;
+	background: var(--r_hover);
+}
+.team_text_content{
+    background: rgba(37, 36, 36, 0.34);
+    padding: 35px 30px 30px 30px;
+}
+.team_text_content h4{
+    color: var(--f_wh);
+    font-weight: 600;
+    font-size: 30px;
+    font-family: var(--barlow);
+    line-height: 36px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.text p{
+    color: var(--f_wh);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: var(--oswald);
+    line-height: 23.71px;
+    padding-right: 10px;
+}
+.teams_btn a{
+    color: var(--f_wh);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: var(--oswald);
+    line-height: 23.71px;
+    padding: 6px 20px;
+    background: var(--r_hover);
+    margin-top: 15px;
+}
+.team_icons a{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: var(--r_hover);
+    margin-top: 20px;
+    color: var(--f_wh);
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+}
+.team_icons{
+    column-gap: 20px;
+}
+.team_text_content{
+    position: absolute;
+    left: 0;
+    bottom: -128px;
+    width: 100%;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.team_imgs{
+    position: relative;
+    overflow: hidden;
+}
+.team_imgs img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.team_cont:hover .team_img_cont .team_imgs .team_text_content{
+    bottom: 0;
+}
+.team_cont:hover .team_img_cont .team_imgs img{
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+}
+.gghgh{
+    row-gap: 30px;
+}
+/* ===========================================================================
+                        Team CSS End Here
+=========================================================================== */
+
+
+
+/* ===========================================================================
+                        QNA CSS Start Here
+=========================================================================== */
+#question{
+    padding: 55px 0 200px 0;
+    background: #121212;
+}
+.qna_header .header h3{
+    font-family: var(--barlow) !important;
+    line-height: 45.6px !important;
+    letter-spacing: 3px !important;
+    text-transform: uppercase !important;
+}
+.qna_header .header h3::after{
+    position: absolute;
+    content: '';
+    right: 54px;
+    bottom: 7px;
+    background: var(--r_hover);
+    height: 3px;
+    width: 105px;
+    animation: stream_head 1s infinite;
+    -webkit-animation: stream_head 1s infinite;
+}
+.red_text7{
+    font-size: 38px;
+    font-family: var(--barlow);
+    line-height: 45.6px;
+    letter-spacing: 3px;
+    color: var(--r_hover);
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-right: 40px;
+    text-transform: uppercase;
+}
+.qna_cont{
+    margin-top: 92px;
+    position: relative;
+}
+.qna_shape{
+    width: 70px;
+    height: 70px;
+    background: var(--r_hover);
+    margin-top: 7px;
+}
+.qna_shape h4{
+    font-size: 38px;
+    font-family: var(--barlow);
+    font-weight: 600;
+    line-height: 45.6px;
+    letter-spacing: 3px;
+    color: var(--f_wh);
+}
+.qna_text a{
+    font-size: 22px;
+    font-family: var(--barlow);
+    font-weight: 600;
+    line-height: 26.4px;
+    color: var(--f_wh);
+    margin-bottom: 10px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.qna_text p{
+    font-size: 16px;
+    font-family: var(--barlow);
+    line-height: 23.71px;
+    color: #666666;
+    font-weight: 400;
+}
+.dfdfdfdf{
+    row-gap: 150px;
+}
+.qna_cont::after{
+    content: '';
+    position:absolute;
+    left: 0;
+    top: 49.9%;
+    width: 100%;
+    height: 1px;
+    background: #666666;
+}
+.qna_cont::before{
+    content: '';
+    position:absolute;
+    left: 49.9%;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background: #666666;
+}
+.qna_item_cont:hover .qna_text a{
+    color: var(--r_hover);
+}
+.qna_search{
+    padding: 35px 16px 35px 30px;
+    background: var(--r_hover);
+}
+.qna_search_text h3{
+    font-size: 40px;
+    font-family: var(--barlow);
+    line-height: 48px;
+    color: var(--f_wh);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.search_con input{
+    width: 410px;
+    height: 40px;
+    background: var(--f_wh);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-size: 16px;
+    font-family: var(--barlow);
+    line-height: 19.2px;
+    color: var(--f_wh);
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 11px 0 11px 20px;
+    color: #666666;
+}
+.btn_qna button{
+    height: 40px;
+    width: 117px;
+    background: #191919;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-size: 16px;
+    font-family: var(--barlow);
+    line-height: 19.2px;
+    color: var(--f_wh);
+    font-weight: 500;
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.search_con, .qna_wrapper{
+    position: relative;
+}
+.qna_search{
+    left: 0;
+    position: absolute;
+    bottom: -285px;
+}
+/* ===========================================================================
+                        QNA CSS End Here
+=========================================================================== */
+
+
+/* ===========================================================================
+                        Footer CSS Start Here
+=========================================================================== */
+#foot{
+    padding: 130px 0 25px 0;
+    background: #191919;
+}
+.foot_item_1 a{
+    font-size: 35px;
+    font-family: var(--barlow);
+    line-height: 42px;
+    color: var(--f_wh);
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    margin-bottom: 30px;
+}
+.foot_item_1 a span{
+    font-size: 50px !important;
+    color: var(--r_hover) !important;
+}
+.foot_item_1 p{
+    font-size: 16px;
+    font-family: var(--oswald);
+    line-height: 23.71px;
+    color: #666666;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-right: 78px;
+}
+.foot_icons{
+    column-gap: 10px;
+    margin-top: 60px;
+    text-align: center;
+    align-items: end;
+    justify-content: start;
+}
+.foot_icons a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #212529;
+    color: var(--f_wh);
+    font-size: 22px;
+    line-height: 50px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.foot_con{
+    padding-bottom: 80px;
+    border-bottom: 1px solid #666666;
+}
+.foot_icons a:hover{
+    background: var(--r_hover);
+}
+.foot_item2 h4{
+    font-size: 25px;
+    font-family: var(--barlow);
+    line-height: 30px;
+    color: var(--f_wh);
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.foot_item4 h4{
+    font-size: 25px;
+    font-family: var(--barlow);
+    line-height: 30px;
+    color: var(--f_wh);
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: -10px;
+}
+.foot_item2 a{
+    font-size: 16px;
+    font-family: var(--oswald);
+    line-height: 23.71px;
+    color: #666666;
+    font-weight: 400;
+    margin-top: 30px;
+    display: block;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.foot_item2, .foot_item4{
+    margin-top: 18px;
+}
+.foot_item2 a:hover{
+    color: var(--r_hover);
+}
+.dd{
+    text-transform: uppercase;
+}
+.gallery_cont{
+    margin-top: 30px;
+}
+.gallery_cont .row .col-lg-4 {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 31.5%;
+}
+.dfdf{
+    row-gap: 5px;
+}
+.copy_right{
+    padding-top: 25px;
+}
+.copy_right h4{
+    font-size: 20px;
+    font-family: var(--barlow);
+    line-height: 24px;
+    color: #fff;
+    font-weight: 400;
+}
+.copy_right h4 a{
+    font-size: 20px;
+    font-family: var(--barlow);
+    line-height: 24px;
+    color: var(--r_hover);
+    font-weight: 400;
+}
+.foot_item4{
+    margin-right:5px;
+}
+/* ===========================================================================
+                        Footer CSS End Here
+=========================================================================== */
+
+
+/* ===========================================================================
+                        Cursor CSS Start Here
+=========================================================================== */
+.cursor{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 2px solid var(--r_hover);
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transition: .13s;
+    -webkit-transition: .13s;
+    -moz-transition: .13s;
+    -ms-transition: .13s;
+    -o-transition: .13s;
+    z-index: 999999999999999;
+}
+.cursor2{
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: var(--f_wh);
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+    -ms-transition: .1s;
+    -o-transition: .1s;
+    z-index: 999999999999999;
+}
+.body:hover > .cursor{
+    transform: translate(-50%,-50%) scale(1.2);
+    -webkit-transform: translate(-50%,-50%) scale(1.2);
+    -moz-transform: translate(-50%,-50%) scale(1.2);
+    -ms-transform: translate(-50%,-50%) scale(1.2);
+    -o-transform: translate(-50%,-50%) scale(1.2);
+    background: #FF4655;
+    opacity: 0.5;
+}
+.body:hover > .cursor2{
+    opacity: 0;
+}
+body{
+    cursor: none;
+}
+/* ===========================================================================
+                        Cursor CSS End Here
+=========================================================================== */
+
+
+
+/* ==============================================================================
+                        Scroll button Area Start Here
+================================================================================ */
+.btn_top {
+    width: 45px;
+    height: 45px;
+    background: var(--r_hover);
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    z-index: 99999999;
+    cursor: pointer;
+    display: none;
+    border-radius: 50%;
+    animation: scroll_btn 2s;
+    -webkit-animation: scroll_btn 2s;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.btn_top:hover{
+    background: var(--f_wh);
+}
+  
+.btn_top span {
+    color: #fff;
+    line-height: 45px;
+    font-size: 25px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.btn_top:hover span{
+    color: #FF4655;
+}
+@keyframes scroll_btn {
+    0% {
+        right: 30px;
+    bottom: 800px;
+    }
+    100% {
+        right: 30px;
+     bottom: 50px;
+    }
+}
+/* ==============================================================================
+                        Scroll button Area End Here
+================================================================================ */
+
+
+
+
+
+
+
+
+
+/* ===========================================================================
+                        Common CSS Start Here
+=========================================================================== */
+/* ===========================================================================
+                        Common CSS End Here
+=========================================================================== */

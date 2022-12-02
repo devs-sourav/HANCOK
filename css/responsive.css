@@ -1,0 +1,1885 @@
+@media (min-width:1400px) {
+    .red_text6 {
+        margin-right: 130px;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1399.99px) {
+    .com_header .header h3::after {
+        right: 240px;
+    }
+    .red2_text {
+        margin-right: 75px;
+    }
+    @keyframes right_move {
+        0% {
+            left: -7px;
+        }
+    
+        100% {
+            left: 495px;
+        }
+    }
+    .game_item {
+        height: 336px;
+    }
+    .image_item_cont img {
+        left: 13px;
+        bottom: -30px;
+        transform: scale(0.9);
+    }
+    .red_text4 {
+        margin-right: 45px;
+    }
+    .red_text6 {
+        margin-right: 140px;
+    }
+    .red_text7 {
+        padding-right: 55px;
+    }
+    .qna_cont::before {
+        content: '';
+        position: absolute;
+        left: 49%;
+        top: 0;
+    }
+    .qna_cont::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 49.5%;
+    }
+    .qna_search_text h3 {
+        font-size: 34px;
+    }
+    .qna_header .header h3::after {
+        right: 70px;
+    }
+    .sale_text h3 {
+        font-size: 21px;
+    }
+}
+
+
+@media (min-width:992px) and (max-width:1199.99px) {
+    .banner_text h1::after {
+        right: 20px;
+        bottom: 20px;
+    }
+    .red2_text {
+        margin-right: 80px;
+    }
+    .com_header .header h3::after {
+        right: 225px;
+        bottom: 13px;
+    }
+    @keyframes right_move {
+        0% {
+            left: -7px;
+        }
+    
+        100% {
+            left: 406px;
+        }
+    }
+    .game_item {
+        height: 280px;
+    }
+    .image_item_cont img {
+        left: -32px;
+        bottom: -90px;
+        transform: scale(0.7);
+    }
+    .pop_next {
+        position: absolute;
+        right: 3px;
+        width: 35px;
+        height: 35px;
+    }
+    .pop_prev {
+        position: absolute;
+        right: 3px;
+        width: 35px;
+        height: 35px;
+    }
+    .red_text4 {
+        margin-right: 55px;
+    }
+    .red_text6 {
+        margin-right: 55px;
+    }
+    .store_cont {
+        margin-top: 60px;
+        position: relative;
+    }
+    .team_text_content {
+        bottom: -128px;
+    }
+    .com_text_con p {
+        font-size: 14px;
+        padding-right: 0px;
+        margin-top: 25px;
+    }
+    .com_text_con a {
+        margin-top: 30px;
+    }
+    .qna_header .header h3::after {
+        right: 65px;
+    }
+    .qna_cont::after {
+        top: 49.01%;
+        left: 0;
+    }
+    .qna_cont::before {
+        left: 49.01%;
+        top: 0;
+    }
+    .qna_search_text h3 {
+        font-size: 28px;
+        line-height: 46px;
+    }
+    .foot_item_1 p {
+        padding-right: 0px;
+    }
+    .foot_item2 a {
+        margin-top: 25px;
+    }
+    .foot_icons {
+        margin-top: 50px;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:991.99px) {
+    /* ==============================================================
+                        Navbar Area Start
+    ============================================================== */
+    .navbar {
+        padding: 15px 0;
+    }
+
+    /* ==============================================================
+                        Navbar Area End
+    ============================================================== */
+
+
+
+    /* ==============================================================
+                        Banner Area Start
+    ============================================================== */
+    #banner {
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+
+    .red_text {
+        top: -15px;
+    }
+
+    .banner_text h1::after {
+        display: none;
+    }
+
+    .banner_text h2 {
+        font-size: 28px;
+        letter-spacing: 3px;
+        line-height: 30.01px;
+    }
+
+    .banner_text h1, .red_text {
+        font-size: 49px;
+        margin-bottom: 0;
+        line-height: 64.82px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .banner_text p {
+        font-size: 15px;
+        padding-right: 274px;
+    }
+
+    .banner_text a {
+        padding: 15px 20px;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .banner_text a::after {
+        top: 0px;
+        height: 103%;
+    }
+
+    .icon_cont {
+        margin-top: 150px;
+    }
+
+    /* ==============================================================
+                        Banner Area End
+    ============================================================== */
+
+
+    /* ==============================================================
+                        About Area Start
+    ============================================================== */
+  
+
+    .com_header .header h3::after {
+        display: none;
+    }
+
+    .header h3, .red2_text, .red_text4, .red_text6, .red_text7{
+        font-size: 30px;
+        line-height: 45.32px;
+        text-align: left;
+    }
+
+    .com_image::after {
+        display: none;
+    }
+
+    .com_image::before {
+        display: none;
+    }
+
+    .com_main::after {
+        width: 90px;
+        top: -5px;
+        height: 5px;
+        left: -5px;
+    }
+
+    .com_main::before {
+        height: 90px;
+        left: -5px;
+        width: 5px;
+        top: -5px;
+    }
+
+    .com_image img {
+        border-radius: 0 0 65px 0;
+        -webkit-border-radius: 0 0 65px 0;
+        -moz-border-radius: 0 0 65px 0;
+        -ms-border-radius: 0 0 65px 0;
+        -o-border-radius: 0 0 65px 0;
+        height: 360px;
+    }
+
+    .com_image {
+        height: 360px;
+        margin-top: 35px;
+    }
+
+    .com_text_con {
+        margin-top: 45px;
+        padding-left: 0px;
+    }
+
+    .com_text_con h3, .com_text_con h3 .red_text3 {
+        font-size: 36px;
+        line-height: 56.01px;
+    }
+
+    .com_list h4 {
+        font-size: 18px;
+        line-height: 19.6px;
+        margin-bottom: 9px;
+    }
+    .com_list {
+        margin-top: 15px;
+    }
+
+    .com_text_con p {
+        font-size: 15px;
+        line-height: 24.68px;
+        padding-right: 70px;
+        margin-top: 25px;
+    }
+
+    .com_text_con a {
+        padding: 17px 20px;
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+    .track {
+        margin-top: 30px;
+    }
+
+    .track h3 {
+        font-size: 49px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    #community {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+    /* ==============================================================
+                        About Area End
+    ============================================================== */
+
+
+    /* ==============================================================
+                        Popular Games Area Start
+    ============================================================== */
+
+
+    #popular {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .popular_head .header h3::after {
+        display: none;
+    }
+
+    .game_item {
+        height: 207px;
+        margin-top: 30px;
+    }
+
+    .image_item_cont img {
+        left: -78px;
+        bottom: -146px;
+        transform: scale(0.52);
+    }
+
+    .pop_game_cont {
+        margin-top: 30px;
+    }
+
+    .pop_next,
+    .pop_prev {
+        display: none !important;
+    }
+
+    /* ==============================================================
+                        Popular Games Area End
+    ============================================================== */
+
+
+    /* ==============================================================
+                        Streaming Area Start
+    ============================================================== */
+
+
+    .Stream_header .header h3::after {
+        display: none;
+    }
+
+    #stream {
+        padding: 60px 0;
+    }
+
+    .stream_item {
+        padding: 120px 10px 13px 10px;
+    }
+    .stream_item a {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 65px !important;
+        margin-top: -20px;
+    }
+
+    .stream_item_cont {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .game_schedule h3 {
+        line-height: 20px;
+        margin-top: 45px;
+    }
+    .team {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    .clippy {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%) !important;
+        padding: 10px 3px 10px 10px;
+    }
+
+    .team h3 {
+        font-size: 29px;
+        letter-spacing: 1px;
+    }
+    .cvc {
+        margin-top: 70px;
+    }
+    .team {
+        padding: 10px;
+    }
+
+    .contest_time h3 {
+        font-size: 35px;
+        line-height: 50.28px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    /* ==============================================================
+                        Streaming Area End
+    ============================================================== */
+
+
+    /* ==============================================================
+                        Sale Area Start
+    ============================================================== */
+    #sale {
+        padding: 50px 0;
+        background: #191919;
+        /* overflow-x: hidden; */
+    }
+
+    .sale_header .header h3 {
+        font-size: 34px;
+        line-height: 41.6px;
+        letter-spacing: 1px;
+    }
+    .game_text_cont  {
+        padding: 40px;
+    }
+
+    .sale_header .header h3::after {
+        display: none;
+    }
+
+    .game_slider_cont {
+        padding: 10px 0 0px 10px;
+        margin-top: 30px;
+    }
+
+    .game_text_cont h3 {
+        font-size: 33px;
+        line-height: 38.6px;
+        margin-top: 15px;
+    }
+
+    .game_text_cont p {
+        font-size: 13px;
+        line-height: 20.71px;
+        margin-top: 11px;
+        padding-right: 10px;
+    }
+
+    .game_text_cont a {
+        padding: 10px 25px;
+        margin-top: 20px;
+        font-size: 15px;
+        line-height: 22.71px;
+    }
+
+    .poster-main {
+        transform: scale(1);
+        transition: all linear 0.3s;
+        -webkit-transition: all linear 0.3s;
+        -moz-transition: all linear 0.3s;
+        -ms-transition: all linear 0.3s;
+        -o-transition: all linear 0.3s;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    /* ==============================================================
+                        Sale Area End
+    ============================================================== */
+
+    /* ==============================================================
+                        Store Area Start
+    ============================================================== */
+    #store {
+        padding: 50px 0;
+    }
+    .store_cont {
+        margin-top: 50px;
+    }
+
+
+    .sale_text h3 {
+        color: var(--f_wh);
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .store_header .header h3::after {
+        display: none;
+    }
+
+    /* .store_prev,
+    .store_next {
+        display: none !important;
+    } */
+
+    /* ==============================================================
+                        Store Area End
+    ============================================================== */
+
+    /* ==============================================================
+                        Team Area Start
+    ============================================================== */
+    #team {
+        padding: 50px 0;
+    }
+
+    .team_header .header h3::after {
+        display: none;
+    }
+
+    .team_text_content h4 {
+        font-size: 20px;
+        line-height: 0px;
+        margin-bottom: 25px;
+    }
+
+    .text p {
+        font-size: 13px;
+        line-height: 20.71px;
+        padding-right: 0px;
+    }
+
+    .teams_btn a {
+        font-size: 14px;
+        line-height: 20.71px;
+        padding: 6px 16px;
+        margin-top: 15px;
+    }
+
+    .team_icons {
+        column-gap: 10px;
+    }
+
+    .team_icons a {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 13px;
+        margin-top: -26px;
+
+    }
+    .team_text_content {
+        bottom: -115px;
+    }
+
+    .dfdfdfdf {
+        row-gap: 40px;
+    }
+
+
+
+    /* ==============================================================
+                        Team Area End
+    ============================================================== */
+
+
+    /* ==============================================================
+                        QNA Area Start
+    ============================================================== */
+    #question {
+        padding: 50px 0 55px 0;
+    }
+
+
+
+    .qna_header .header h3::after {
+        display: none;
+    }
+
+    .qna_header .header h3 , .red_text7{
+        line-height: 40.6px !important;
+        letter-spacing: 1px !important;
+    }
+
+    .qna_shape {
+        width: 60px;
+        height: 60px;
+        margin-top: 10px;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+        margin-bottom: 15px;
+    }
+
+    .qna_cont::after,
+    .qna_cont::before {
+        display: none;
+    }
+
+    .qna_cont {
+        margin-top: 40px;
+    }
+
+    .qna_search {
+        padding: 30px 65px 30px 52px;
+    }
+    .qna_search_text h3 {
+        font-size: 32px;
+        line-height: 39px;
+        margin-bottom: 20px;
+    }
+
+    .search_con input {
+        width: 100%;
+        height: 40px;
+    }
+
+    .btn_qna button {
+        height: 40px;
+    }
+
+
+
+    .qna_search {
+        position: static;
+        margin-top: 30px;
+    }
+
+    /* ==============================================================
+                        QNA Area End
+    ============================================================== */
+
+
+
+    /* ==============================================================
+                        Footer Area Start
+    ============================================================== */
+    #foot {
+        padding: 35px 0 25px 0;
+    }
+
+    .foot_item_1 p {
+        font-size: 14px;
+        line-height: 27.71px;
+        padding-right: 190px;
+        margin-top: 20px;
+    }
+
+    .foot_item_1 a {
+        font-size: 36px;
+        line-height: 40px;
+        margin-bottom: 0px;
+    }
+
+    .foot_icons {
+        column-gap: 30px;
+        margin-top: 25px;
+        justify-content: start;
+    }
+
+    .foot_icons a {
+        width: 45px;
+        height: 45px;
+        font-size: 22px;
+        line-height: 45px;
+    }
+
+    .foot_item2, .foot_item4 {
+        margin-top: 30px;
+        text-align: start;
+    }
+    .foot_item4 {
+        margin-right: -2px;
+        margin-left: 12px;
+    }
+    .foot_item2 a {
+        font-size: 18px;
+        margin-top: 40px;
+    }
+    .foot_con {
+        padding-bottom: 50px;
+        border-bottom: 1px solid #666666;
+    }
+
+    /* ==============================================================
+                        Footer Area End
+    ============================================================== */
+}
+@media (min-width:576px) and (max-width:767.99px) {
+    /* ==============================================================
+                        Navbar Area Start
+    ============================================================== */
+    .navbar {
+        padding: 15px 0;
+    }
+
+    /* ==============================================================
+                        Navbar Area End
+    ============================================================== */
+
+
+
+    /* ==============================================================
+                        Banner Area Start
+    ============================================================== */
+    #banner {
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+
+    .red_text {
+        display: none;
+    }
+
+    .banner_text h1::after {
+        display: none;
+    }
+
+    .banner_text h2 {
+        font-size: 22px;
+        letter-spacing: 4px;
+        line-height: 18.01px;
+    }
+
+    .banner_text h1 {
+        font-size: 30px;
+        margin-bottom: 0;
+        line-height: 68.82px;
+    }
+
+    .banner_text p {
+        font-size: 13px;
+        padding-right: 0;
+    }
+
+    .banner_text a {
+        padding: 11px 15px;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    .banner_text a::after {
+        top: -1px;
+        height: 103%;
+    }
+
+    .icon_cont {
+        margin-top: 30px;
+    }
+
+    /* ==============================================================
+                        Banner Area End
+    ============================================================== */
+
+
+    /* ==============================================================
+                        About Area Start
+    ============================================================== */
+    .red2_text {
+        display: none;
+    }
+
+    .com_header .header h3::after {
+        display: none;
+    }
+
+    .header h3 {
+        font-size: 30px;
+        line-height: 45.32px;
+        text-align: left;
+    }
+
+    .com_image::after {
+        display: none;
+    }
+
+    .com_image::before {
+        display: none;
+    }
+
+    .com_main::after {
+        width: 90px;
+        top: -5px;
+        height: 5px;
+        left: -5px;
+    }
+
+    .com_main::before {
+        height: 90px;
+        left: -5px;
+        width: 5px;
+        top: -5px;
+    }
+
+    .com_image img {
+        border-radius: 0 0 35px 0;
+        -webkit-border-radius: 0 0 35px 0;
+        -moz-border-radius: 0 0 35px 0;
+        -ms-border-radius: 0 0 35px 0;
+        -o-border-radius: 0 0 35px 0;
+        height: 250px;
+    }
+
+    .com_image {
+        height: 250px;
+        margin-top: 35px;
+    }
+
+    .com_text_con {
+        margin-top: 45px;
+        padding-left: 0px;
+    }
+
+    .com_text_con h3,
+    .com_text_con h3 .red_text3 {
+        font-size: 20px;
+        line-height: 40.01px;
+    }
+
+    .com_list h4 {
+        font-size: 15px;
+        line-height: 19.6px;
+        margin-bottom: 7px;
+    }
+
+    .com_list {
+        margin-top: 15px;
+    }
+
+    .com_text_con p {
+        font-size: 13px;
+        line-height: 22.68px;
+        padding-right: 0px;
+        margin-top: 25px;
+    }
+
+    .com_text_con a {
+        padding: 13px 20px;
+        font-size: 16px;
+        margin-top: 25px;
+    }
+
+    .track {
+        margin-top: 30px;
+    }
+
+    .track h3 {
+        font-size: 49px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    #community {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+    /* ==============================================================
+                        About Area End
+    ============================================================== */
+
+
+    /* ==============================================================
+                        Popular Games Area Start
+    ============================================================== */
+
+
+    #popular {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .popular_head .header h3::after {
+        display: none;
+    }
+
+    .game_item {
+        height: 235px;
+    }
+
+    .image_item_cont img {
+        left: 0px;
+        bottom: -121px;
+        transform: scale(0.6);
+    }
+
+    .pop_game_cont {
+        margin-top: 30px;
+    }
+
+    .pop_next,
+    .pop_prev {
+        display: none !important;
+    }
+
+    /* ==============================================================
+                        Popular Games Area End
+    ============================================================== */
+
+
+    /* ==============================================================
+                        Streaming Area Start
+    ============================================================== */
+    .red_text4 {
+        display: none;
+    }
+
+    .Stream_header .header h3::after {
+        display: none;
+    }
+
+    #stream {
+        padding: 60px 0;
+    }
+
+    .stream_item {
+        padding: 120px 10px 13px 10px;
+    }
+    .stream_item a {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 65px !important;
+        margin-top: -20px;
+    }
+
+    .stream_item_cont {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .game_schedule h3 {
+        line-height: 20px;
+        margin-top: 45px;
+    }
+    .team {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    .clippy {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%) !important;
+        padding: 10px 3px 10px 10px;
+    }
+
+    .team h3 {
+        font-size: 29px;
+        letter-spacing: 1px;
+    }
+    .cvc {
+        margin-top: 70px;
+    }
+    .team {
+        padding: 10px 40px 10px 40px;
+    }
+
+    .contest_time h3 {
+        font-size: 35px;
+        line-height: 50.28px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    /* ==============================================================
+                        Streaming Area End
+    ============================================================== */
+
+
+    /* ==============================================================
+                        Sale Area Start
+    ============================================================== */
+    #sale {
+        padding: 50px 0;
+        background: #191919;
+        /* overflow-x: hidden; */
+    }
+
+    .sale_header .header h3 {
+        font-size: 32px;
+        line-height: 41.6px;
+        letter-spacing: 1px;
+    }
+
+    .sale_header .header h3::after {
+        display: none;
+    }
+
+    .game_slider_cont {
+        padding: 25px 0 0px 10px;
+        margin-top: 30px;
+    }
+
+    .game_text_cont h3 {
+        font-size: 24px;
+        line-height: 32.6px;
+        margin-top: 10px;
+    }
+
+    .game_text_cont p {
+        font-size: 13px;
+        line-height: 20.71px;
+        margin-top: 11px;
+        padding-right: 10px;
+    }
+
+    .game_text_cont a {
+        padding: 10px 25px;
+        margin-top: 20px;
+        font-size: 15px;
+        line-height: 22.71px;
+    }
+
+    .poster-main {
+        transform: scale(1);
+        transition: all linear 0.3s;
+        -webkit-transition: all linear 0.3s;
+        -moz-transition: all linear 0.3s;
+        -ms-transition: all linear 0.3s;
+        -o-transition: all linear 0.3s;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    /* ==============================================================
+                        Sale Area End
+    ============================================================== */
+
+    /* ==============================================================
+                        Store Area Start
+    ============================================================== */
+    #store {
+        padding: 50px 0;
+    }
+
+    .red_text6 {
+        display: none;
+    }
+    .sale_text h3 {
+        color: var(--f_wh);
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .store_header .header h3::after {
+        display: none;
+    }
+
+    .store_prev,
+    .store_next {
+        display: none !important;
+    }
+
+    /* ==============================================================
+                        Store Area End
+    ============================================================== */
+
+    /* ==============================================================
+                        Team Area Start
+    ============================================================== */
+    #team {
+        padding: 50px 0;
+    }
+
+    .team_header .header h3::after {
+        display: none;
+    }
+
+    .team_text_content h4 {
+        font-size: 20px;
+        line-height: 0px;
+        margin-bottom: 25px;
+    }
+
+    .text p {
+        font-size: 13px;
+        line-height: 20.71px;
+        padding-right: 0px;
+    }
+
+    .teams_btn a {
+        font-size: 14px;
+        line-height: 20.71px;
+        padding: 6px 16px;
+        margin-top: 15px;
+    }
+
+    .team_icons {
+        column-gap: 10px;
+    }
+
+    .team_icons a {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 13px;
+        margin-top: -26px;
+
+    }
+    .team_text_content {
+        bottom: -96px;
+    }
+
+    .dfdfdfdf {
+        row-gap: 40px;
+    }
+
+    .qna_text {
+        text-align: center;
+    }
+
+    /* ==============================================================
+                        Team Area End
+    ============================================================== */
+
+
+    /* ==============================================================
+                        QNA Area Start
+    ============================================================== */
+    #question {
+        padding: 50px 0 55px 0;
+    }
+
+    .red_text7 {
+        display: none;
+    }
+
+    .qna_header .header h3::after {
+        display: none;
+    }
+
+    .qna_header .header h3 {
+        line-height: 40.6px !important;
+        letter-spacing: 1px !important;
+    }
+
+    .qna_shape {
+        width: 60px;
+        height: 60px;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+
+    .qna_cont::after,
+    .qna_cont::before {
+        display: none;
+    }
+
+    .qna_cont {
+        margin-top: 40px;
+    }
+
+    .qna_search {
+        padding: 30px 15px 30px 15px;
+    }
+    .qna_search_text h3 {
+        font-size: 25px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+
+    .search_con input {
+        width: 100%;
+        height: 40px;
+    }
+
+    .btn_qna button {
+        height: 40px;
+    }
+
+
+
+    .qna_search {
+        position: static;
+        margin-top: 30px;
+    }
+
+    /* ==============================================================
+                        QNA Area End
+    ============================================================== */
+
+
+
+    /* ==============================================================
+                        Footer Area Start
+    ============================================================== */
+    #foot {
+        padding: 35px 0 25px 0;
+    }
+
+    .foot_item_1 p {
+        font-size: 13px;
+        line-height: 21.71px;
+        padding-right: 0px;
+        margin-top: 20px;
+    }
+
+    .foot_item_1 a {
+        font-size: 36px;
+        line-height: 40px;
+        margin-bottom: 0px;
+    }
+
+    .foot_icons {
+        column-gap: 30px;
+        margin-top: 25px;
+        justify-content: center;
+    }
+
+    .foot_icons a {
+        width: 45px;
+        height: 45px;
+        font-size: 22px;
+        line-height: 45px;
+    }
+
+    .foot_item2,
+    .foot_item4 {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .foot_item4 {
+        margin-right: 8px;
+        margin-left: 12px;
+    }
+    .foot_item2 a {
+        font-size: 16px;
+        margin-top: 25px;
+    }
+
+    .foot_con {
+        padding-bottom: 50px;
+        border-bottom: 1px solid #666666;
+    }
+
+    /* ==============================================================
+                        Footer Area End
+    ============================================================== */
+}
+
+
+@media(max-width:575.99px) {
+
+    /* ==============================================================
+                        Navbar Area Start
+    ============================================================== */
+    .navbar {
+        padding: 15px 0;
+    }
+
+    /* ==============================================================
+                        Navbar Area End
+    ============================================================== */
+
+
+
+    /* ==============================================================
+                        Banner Area Start
+    ============================================================== */
+    #banner {
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+
+    .red_text {
+        display: none;
+    }
+
+    .banner_text h1::after {
+        display: none;
+    }
+
+    .banner_text h2 {
+        font-size: 22px;
+        letter-spacing: 4px;
+        line-height: 18.01px;
+    }
+
+    .banner_text h1 {
+        font-size: 30px;
+        margin-bottom: 0;
+        line-height: 68.82px;
+    }
+
+    .banner_text p {
+        font-size: 13px;
+        padding-right: 0;
+    }
+
+    .banner_text a {
+        padding: 11px 15px;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    .banner_text a::after {
+        top: -1px;
+        height: 103%;
+    }
+
+    .icon_cont {
+        margin-top: 30px;
+    }
+
+    /* ==============================================================
+                        Banner Area End
+    ============================================================== */
+
+
+    /* ==============================================================
+                        About Area Start
+    ============================================================== */
+    .red2_text {
+        display: none;
+    }
+
+    .com_header .header h3::after {
+        display: none;
+    }
+
+    .header h3 {
+        font-size: 25px;
+        line-height: 40.32px;
+    }
+
+    .com_image::after {
+        display: none;
+    }
+
+    .com_image::before {
+        display: none;
+    }
+
+    .com_main::after {
+        width: 90px;
+        top: -5px;
+        height: 5px;
+        left: -5px;
+    }
+
+    .com_main::before {
+        height: 90px;
+        left: -5px;
+        width: 5px;
+        top: -5px;
+    }
+
+    .com_image img {
+        border-radius: 0 0 35px 0;
+        -webkit-border-radius: 0 0 35px 0;
+        -moz-border-radius: 0 0 35px 0;
+        -ms-border-radius: 0 0 35px 0;
+        -o-border-radius: 0 0 35px 0;
+        height: 250px;
+    }
+
+    .com_image {
+        height: 250px;
+        margin-top: 35px;
+    }
+
+    .com_text_con {
+        margin-top: 45px;
+        padding-left: 0px;
+    }
+
+    .com_text_con h3,
+    .com_text_con h3 .red_text3 {
+        font-size: 20px;
+        line-height: 40.01px;
+    }
+
+    .com_list h4 {
+        font-size: 15px;
+        line-height: 19.6px;
+        margin-bottom: 7px;
+    }
+
+    .com_list {
+        margin-top: 15px;
+    }
+
+    .com_text_con p {
+        font-size: 13px;
+        line-height: 22.68px;
+        padding-right: 0px;
+        margin-top: 25px;
+    }
+
+    .com_text_con a {
+        padding: 13px 20px;
+        font-size: 16px;
+        margin-top: 25px;
+    }
+
+    .track {
+        margin-top: 30px;
+    }
+
+    .track h3 {
+        font-size: 49px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+
+    /* ==============================================================
+                        About Area End
+    ============================================================== */
+
+
+    /* ==============================================================
+                        Popular Games Area Start
+    ============================================================== */
+    #community {
+        padding-bottom: 50px;
+    }
+
+    #popular {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .popular_head .header h3::after {
+        display: none;
+    }
+
+    .game_item {
+        height: 235px;
+    }
+
+    .image_item_cont img {
+        left: -90px;
+        bottom: -121px;
+        transform: scale(0.6);
+    }
+
+    .pop_game_cont {
+        margin-top: 30px;
+    }
+
+    .pop_next,
+    .pop_prev {
+        display: none !important;
+    }
+
+    /* ==============================================================
+                        Popular Games Area End
+    ============================================================== */
+
+
+    /* ==============================================================
+                        Streaming Area Start
+    ============================================================== */
+    .red_text4 {
+        display: none;
+    }
+
+    .Stream_header .header h3::after {
+        display: none;
+    }
+
+    #stream {
+        padding: 40px 0;
+    }
+
+    .stream_item {
+        padding: 120px 10px 13px 10px;
+    }
+
+    .stream_item a {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 65px !important;
+        margin-top: -20px;
+    }
+
+    .stream_item_cont {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .game_schedule h3 {
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    .team {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    .clippy {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%) !important;
+        padding: 10px 3px 10px 10px;
+    }
+
+    .team h3 {
+        font-size: 29px;
+        letter-spacing: 1px;
+    }
+
+    .team {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .contest_time h3 {
+        font-size: 35px;
+        line-height: 50.28px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    /* ==============================================================
+                        Streaming Area End
+    ============================================================== */
+
+
+    /* ==============================================================
+                        Sale Area Start
+    ============================================================== */
+    #sale {
+        padding: 50px 0;
+        background: #191919;
+        /* overflow-x: hidden; */
+    }
+
+    .sale_header .header h3 {
+        font-size: 25px;
+        line-height: 40.6px;
+        letter-spacing: 1px;
+    }
+
+    .sale_header .header h3::after {
+        display: none;
+    }
+
+    .game_slider_cont {
+        padding: 25px 0 0px 10px;
+        margin-top: 30px;
+    }
+
+    .game_text_cont h3 {
+        font-size: 24px;
+        line-height: 32.6px;
+        margin-top: 10px;
+    }
+
+    .game_text_cont p {
+        font-size: 13px;
+        line-height: 20.71px;
+        margin-top: 11px;
+        padding-right: 10px;
+    }
+
+    .game_text_cont a {
+        padding: 10px 25px;
+        margin-top: 20px;
+        font-size: 15px;
+        line-height: 22.71px;
+    }
+
+    .poster-main {
+        margin-left: -62px;
+        transform: scale(0.7);
+        transition: all linear 0.3s;
+        -webkit-transition: all linear 0.3s;
+        -moz-transition: all linear 0.3s;
+        -ms-transition: all linear 0.3s;
+        -o-transition: all linear 0.3s;
+    }
+
+    /* ==============================================================
+                        Sale Area End
+    ============================================================== */
+
+    /* ==============================================================
+                        Store Area Start
+    ============================================================== */
+    #store {
+        padding: 50px 0;
+    }
+
+    .red_text6 {
+        display: none;
+    }
+
+    .store_header .header h3::after {
+        display: none;
+    }
+
+    .store_prev,
+    .store_next {
+        display: none !important;
+    }
+
+    /* ==============================================================
+                        Store Area End
+    ============================================================== */
+
+    /* ==============================================================
+                        Team Area Start
+    ============================================================== */
+    #team {
+        padding: 50px 0;
+    }
+
+    .team_header .header h3::after {
+        display: none;
+    }
+
+    .team_text_content h4 {
+        font-size: 20px;
+        line-height: 0px;
+        margin-bottom: 25px;
+    }
+
+    .text p {
+        font-size: 13px;
+        line-height: 20.71px;
+        padding-right: 0px;
+    }
+
+    .teams_btn a {
+        font-size: 14px;
+        line-height: 20.71px;
+        padding: 6px 16px;
+        margin-top: 15px;
+    }
+
+    .team_icons {
+        column-gap: 10px;
+    }
+
+    .team_icons a {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 13px;
+        margin-top: -26px;
+
+    }
+
+    .team_text_content {
+        bottom: -115px;
+    }
+
+    .dfdfdfdf {
+        row-gap: 40px;
+    }
+
+    .qna_text {
+        text-align: center;
+    }
+
+    /* ==============================================================
+                        Team Area End
+    ============================================================== */
+
+
+    /* ==============================================================
+                        QNA Area Start
+    ============================================================== */
+    #question {
+        padding: 50px 0 55px 0;
+    }
+
+    .red_text7 {
+        display: none;
+    }
+
+    .qna_header .header h3::after {
+        display: none;
+    }
+
+    .qna_header .header h3 {
+        line-height: 40.6px !important;
+        letter-spacing: 1px !important;
+    }
+
+    .qna_shape {
+        width: 60px;
+        height: 60px;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+
+    .qna_cont::after,
+    .qna_cont::before {
+        display: none;
+    }
+
+    .qna_cont {
+        margin-top: 40px;
+    }
+
+    .qna_search {
+        padding: 30px 15px 30px 15px;
+    }
+
+    .qna_search_text h3 {
+        font-size: 17px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+
+    .search_con input {
+        width: 100%;
+        height: 40px;
+    }
+
+    .btn_qna button {
+        height: 40px;
+    }
+
+
+
+    .qna_search {
+        position: static;
+        margin-top: 30px;
+    }
+
+    /* ==============================================================
+                        QNA Area End
+    ============================================================== */
+
+
+
+    /* ==============================================================
+                        Footer Area Start
+    ============================================================== */
+    #foot {
+        padding: 35px 0 25px 0;
+    }
+
+    .foot_item_1 p {
+        font-size: 12px;
+        line-height: 21.71px;
+        padding-right: 0px;
+    }
+
+    .foot_item_1 a {
+        font-size: 36px;
+        line-height: 40px;
+        margin-bottom: 0px;
+    }
+
+    .foot_icons {
+        column-gap: 30px;
+        margin-top: 25px;
+        justify-content: center;
+    }
+
+    .foot_icons a {
+        width: 45px;
+        height: 45px;
+        font-size: 22px;
+        line-height: 45px;
+    }
+
+    .foot_item2,
+    .foot_item4 {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .foot_item2 a {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .foot_con {
+        padding-bottom: 50px;
+        border-bottom: 1px solid #666666;
+    }
+
+    /* ==============================================================
+                        Footer Area End
+    ============================================================== */
+    @media (min-width:320px) and (max-width:325.99px) {
+        .team_text_content {
+            bottom: -138px;
+        }
+    }
+
+    @media (min-width:340px) and (max-width:373.99px) {
+        .poster-main {
+            margin-left: -36px;
+            transform: scale(0.71);
+            -webkit-transform: scale(0.71);
+            -moz-transform: scale(0.71);
+            -ms-transform: scale(0.71);
+            -o-transform: scale(0.71);
+        }
+    }
+
+    @media (min-width:374px) and (max-width:400.99px) {
+        .poster-main {
+            margin-left: -15px;
+            transform: scale(0.83);
+            -webkit-transform: scale(0.83);
+            -moz-transform: scale(0.83);
+            -ms-transform: scale(0.83);
+            -o-transform: scale(0.83);
+        }
+    }
+
+    @media (min-width:401px) and (max-width:449.99px) {
+        .poster-main {
+            margin-left: 25px;
+            transform: scale(0.89);
+            transition: all linear 0.3s;
+            -webkit-transition: all linear 0.3s;
+            -moz-transition: all linear 0.3s;
+            -ms-transition: all linear -0.7s;
+            -o-transition: all linear 0.3s;
+        }
+        .image_item_cont img {
+            left: -50px;
+            bottom: -121px;
+            transform: scale(0.6);
+        }
+    }
+
+    @media (min-width:450px) and (max-width:499.99px) {
+        .poster-main {
+            margin-left: 25px;
+            transform: scale(0.89);
+            transition: all linear 0.3s;
+            -webkit-transition: all linear 0.3s;
+            -moz-transition: all linear 0.3s;
+            -ms-transition: all linear -0.7s;
+            -o-transition: all linear 0.3s;
+        }
+        .image_item_cont img {
+            left: -18px;
+            bottom: -121px;
+            transform: scale(0.6);
+        }
+    }
+
+    @media (min-width:500px) and (max-width:575.99px) {
+        .team_text_content {
+            bottom: -95px;
+        }
+        .image_item_cont img {
+            left: 5px;
+            bottom: -121px;
+            transform: scale(0.6);
+        }
+    }
+
+    @media (min-width:500px) and (max-width:575.99px) {
+        .banner_text p {
+            padding-right: 100px;
+        }
+
+        .com_text_con p {
+            padding-right: 50px;
+        }
+
+        .poster-main {
+            margin-left: 63px;
+            transform: scale(1);
+            transition: all linear 0.3s;
+            -webkit-transition: all linear 0.3s;
+            -moz-transition: all linear 0.3s;
+            -ms-transition: all linear 0.3s;
+            -o-transition: all linear 0.3s;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        .foot_item_1 p {
+            font-size: 13px;
+            padding-right: 90px;
+            margin-top: 20px;
+        }
+    }
+
+}
+
